@@ -1,0 +1,13 @@
+decluttering_templates:
+  energy:
+    card:
+      type: entities
+      title: '[[name]]'
+      show_header_toggle: false
+      entities:
+        - '[[entity_1]]'
+        - '[[entity_2]]'
+        - '[[entity_3]]'
+        - '[[entity_4]]'
+        - '[[entity_5]]'
+        - '[[entity_6]]'

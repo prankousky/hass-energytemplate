@@ -1,0 +1,14 @@
+icon: 'mdi:flash-circle'
+title: Energy Consumption
+badges: []
+cards:
+  - type: 'custom:decluttering-card'
+    template: energy
+    variables:
+      - name: <name>
+      - entity_1: sensor.<name>_energy_power
+      - entity_2: sensor.<name>_energy_voltage
+      - entity_3: sensor.<name>_energy_current
+      - entity_4: sensor.<name>_energy_today
+      - entity_5: sensor.<name>_energy_yesterday
+      - entity_6: sensor.<name>_energy_total
