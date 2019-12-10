@@ -2,9 +2,9 @@
 
 You can use this example to display multiple energy metering devices' readings in Home Assistant. For this to work, the devices need to run `tasmota` and have been *auto-discovered* by Home Assistant (use command `setoption19 1` in tasmota console or submit via `mqtt`).
 
-You will need (https://github.com/custom-cards/decluttering-card)[decluttering card]. Use `energy_template.yaml` as a decluttering card template, and use `energy_card.yaml` as one or multiple cards in lovelace. Don't forget to change `<name>` to each corresponding device name. (**tipp**: you can *search and replace* `<name>` with the device name to save typing).
+You will need (https://github.com/custom-cards/decluttering-card)[decluttering card]. Use `energy_template.yaml` as a decluttering card template, and use `energy_card.yaml` as one or multiple cards in lovelace. Don't forget to change `<name>` to each corresponding device name. (*tip*: you can *search and replace* `<name>` with the device name to save typing).
 
-
+Example picture (in German language, but if you copy the code below yours will be in English)
 ![screenshot](screenshot.png)
 
 Paste the following in your `configuration.yaml`
